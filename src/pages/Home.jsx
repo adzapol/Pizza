@@ -37,8 +37,6 @@ function Home() {
     dispatch(addPizzaToCart(obj));
   };
 
-  console.log(cartItems);
-
   return (
     <div className="container">
       <div className="content__top">
